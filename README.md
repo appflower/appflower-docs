@@ -2,7 +2,8 @@
 
 For the current documentation visit the online book at http://appflower.com/doc. We are moving the existing documentation to be placed on github, for easier contribution. You should still checkout the online docs, for commenting. 
 
-## ContributingThe most easy contribution you can make is reporting issues: a typo, a grammar mistake, a bug in code example, a missing explanation, and so on. The documentation is hosted on [github](https://github.com/appflower/appflower-docs).
+## Contributing
+The most easy contribution you can make is reporting issues: a typo, a grammar mistake, a bug in code example, a missing explanation, and so on. The documentation is hosted on [github](https://github.com/appflower/appflower-docs).
 
 **Ways of contributing**
 
