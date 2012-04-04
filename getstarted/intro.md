@@ -1,7 +1,7 @@
 # What is AppFlower
 AppFlower is a rapid application builder designed to easily create enterprise-ready solutions. AppFlower is suited to create data-driven applications like Office Collaboration, ERP, CRM, Logistic, e-Governance projects, Project- and Appliance- Management Interfaces and the like.
 
-AppFlower is an open source application builder for use in building web-based applications, also known as a Visual RAD-tool. AppFlower provides a visual designer (Studio) to develop applications without prior knowledge of programming, using drag and drop and no coding. Advanced users can create more complex applications.
+AppFlower is an open source application builder for use in building web-based applications, also known as a Visual Rapid Application Development (RAD) platform. AppFlower provides a visual designer (Studio) to develop applications without prior knowledge of programming, using drag and drop and no coding. Advanced users can create more complex applications.
 
 AppFlower is based the Model-View-Controller development framework Symfony, and the JavaScript library ExtJS.
 
