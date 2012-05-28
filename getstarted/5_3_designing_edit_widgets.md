@@ -69,7 +69,7 @@ Submit Label : The ***label text*** of the _Submit_ button.
 
 Reset Label : The ***label text*** of the _Reset_ button
 
-NOTE: It's good to know: You ***don't*** have to run the widget wizard again to add ***another field*** to your form! Just right click on ***Fields***, then choose Add Field option.  Now you can click to the newly added field to adjust its settings.
+NOTICE: : It's good to know: You ***don't*** have to run the widget wizard again to add ***another field*** to your form! Just right click on ***Fields***, then choose Add Field option.  Now you can click to the newly added field to adjust its settings.
 
 ## Field
 
@@ -133,9 +133,9 @@ If the validator takes ***parameters***, you can add those as well:  Right click
 
 This chapter deals with the basics of Edit Views and is trying to give you an overview, since that's just enough for your first edit widgets. For this reason (and also for keeping this book as small as possible)  advanced concepts and some features won't be discussed here. But of course, feel free to explore more:
 
-<ul class="green_list">
-<li><a href="/doc/1_1/cookbook_fieldsets" >Field-sets and Tabs in Forms</a></li>
-<li><a href="/doc/1_1/cookbook_floating" >Horizontally Aligned Forms</a></li>
-<ul>
+
+ * <a href="/doc/1_1/cookbook_fieldsets" >Field-sets and Tabs in Forms</a>
+ * <a href="/doc/1_1/cookbook_floating" >Horizontally Aligned Forms</a>
+
 
 Well that's it! You've successfully created your first Edit / Show Widget, congratulations! To see it in action, press the Preview button.

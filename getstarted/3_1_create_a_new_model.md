@@ -12,7 +12,7 @@ A new entry appears, whose name is the default _"NewModel"_ right now. Change it
 
 That's it. Our model, called ***Song*** is just being generated.  At this point, it is a valid, but not fully functional model. We need to ***add its fields*** to make it useful. 
 
-<div style="clear:both;"></div>
+
 
 # 2. The Model Editor
 <div class="image_medium" style="float:right;"><a href="/uploads/book/model/02_model_grid.png" rel="prettyPhoto" title=""><img alt="Model Editor" src="/uploads/book/model/02_model_grid.png" hspace="5" vspace="5"></a></div> 
@@ -25,7 +25,7 @@ The Model Config tab displays a detailed _overview of the fields_ associated wit
 
 Click the Model Config tab now.
 
-NOTE: Please ***save your changes regularly*** while working with the tools described below! The changes you make won't be stored automatically, without saving ***you can lose them***!
+NOTICE: : Please ***save your changes regularly*** while working with the tools described below! The changes you make won't be stored automatically, without saving ***you can lose them***!
 
 # 3. Designing Model Structure
 
@@ -95,7 +95,7 @@ Name this new entry "id" and ***make all the other settings blank***.
 
 This is a special field which you will use not only with this, but with each and every model you create. The id is like an _automatic counter_. Whenever you store a new piece of information (a song in this case), the counter will be increased by one, thus the new entry _gets numbered_. For now, you don't have to dive into the details of this, just keep in mind that ***this is an important, unique identifier*** used by the system, and it will be useful to you as well later.
 
-NOTE: For the sake of this tutorial, we created "id" as the last field, but normally ***this should be the first one you add***. No matter what information you wanna store or how your model looks like, it should have "id" as its first field.
+NOTICE: : For the sake of this tutorial, we created "id" as the last field, but normally ***this should be the first one you add***. No matter what information you wanna store or how your model looks like, it should have "id" as its first field.
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/model/06_model_grid_entering_data.png" rel="prettyPhoto" title=""><img alt="Adding Data to Model" src="/uploads/book/model/06_model_grid_entering_data.png" hspace="5" vspace="5"></a></div> 
 
@@ -107,7 +107,7 @@ Click to the ***Song*** tab to start adding your songs. As you can see, the data
 
 Click to the "'title" column. Key in a song title, then press the ***tab*** key. The cursor jumps to next column. Keep repeating this until all the columns are filled. Pressing tab in the last column will insert a new row automatically.
 
-NOTE: ***Always leave the "id" field blank!*** It will be automatically filled in by the system when you push the save button.
+NOTICE: : ***Always leave the "id" field blank!*** It will be automatically filled in by the system when you push the save button.
 
 You should take a break now. Have a coffee and some snacks, check your favorite blog. 
 

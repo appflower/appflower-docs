@@ -1,0 +1,1 @@
+Current the online version is the most up-to-date http://www.appflower.com/doc/1_2/reference_manual. We are working on a more automated method to keep the reference manual consistent with the latest changes of the engine.

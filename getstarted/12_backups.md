@@ -52,7 +52,7 @@ cd /var/www/yourproject
 ./symfony propel:data-dump project_20110912
 </pre> 
 
-NOTE: Please note that the file's name ***ends with a number***, which represents the current date. You can, of course name this anyhow, but 
+NOTICE: : Please note that the file's name ***ends with a number***, which represents the current date. You can, of course name this anyhow, but 
 it is usually helpful to use a naming convention, so you can save many different, yet easily identifiable backups to the same place.
 
 This operation will create the file /var/www/yourproject/data/fixtures/project_20110912.yml, which holds the 
@@ -78,7 +78,7 @@ This is even easier than backing up DB contents. Simply choose Sutio Beta -> Pro
 
 If you have used the ***database-independent*** method described above, then your database backup was also added to the above file. You can find it in ***data/fixtures*** directory.
 
-NOTE: The aforementioned package uses Tar / Gzip compression, which is handled by virtually all Unix / Linux systems. Under Windows, you may 
+NOTICE: : The aforementioned package uses Tar / Gzip compression, which is handled by virtually all Unix / Linux systems. Under Windows, you may 
 open such a file using third-party software, such as <a href="http://www.totalcmd.com" >Total Commander</a>.
 
 Well, that's it. You have just created your first backup package, thumbs up! -:).

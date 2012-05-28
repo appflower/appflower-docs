@@ -11,15 +11,15 @@ You may start up the Code Editor either by opening the side panel on the right w
 The Code Editor comes with a bunch of features; which really can ease your job while working with AppFlower.
 
 Some of the major features in the code editor is:
-<ul>
-<li>Syntax highlighting</ul>
-<li>Auto indentation and outdent<li>
-<li>Search and replace with regular expressions</li>
-<li>Highlight matching parentheses</li>
-<li>Toggle between soft tabs and real tabs</li>
-<li>Displays hidden characters</li>
-<li>Highlight selected word</li>
-</ul>
+
+ * Syntax highlighting
+ * Auto indentation and outdent * 
+ * Search and replace with regular expressions
+ * Highlight matching parentheses
+ * Toggle between soft tabs and real tabs
+ * Displays hidden characters
+ * Highlight selected word
+
 
 
 ## The context menu

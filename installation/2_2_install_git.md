@@ -5,7 +5,7 @@ href="http://git-scm.com/" >Git</a> version control system. By having a proper g
 
 Basically, the AppFlower project consists of two major components: the AppFlower Engine, which is the heart of the technology and the visual builder to create your application, AppFlower Studio. On GitHub we maintain several other git repositories, where you will find plugins and other bundled distributions of appFlower. The project used in this tutorial is the AppFlower Playground project with Studio integrated.
 
-NOTE: In addition to these git repositories we a few other installations options available for those not choosing to use git. Visit the <a href="http://www.appflower.com/cms/download">download appflower</a> page for more details.
+NOTICE: : In addition to these git repositories we a few other installations options available for those not choosing to use git. Visit the <a href="http://www.appflower.com/cms/download">download appflower</a> page for more details.
 
 # Step 1: AppFlower Requirements
 In order to use AppFlower, your development environment has to meet certain requirements.  To find out whether your system is ready for AppFlower , please see <a 
@@ -14,7 +14,7 @@ href="/doc/1_2/learn_requirements">Hosting and Requirements</a> chapter!</a>
 # Step 2: Downloading through GitHub
 ***2.1 Getting a Git Account***: You'll need a GitHub account (which is also free) and will also have to install the Git client program to fetch our packages. If you don't know how to do this, we suggest you to check out the <a href="http://help.github.com/" >GitHub quick help</a> page. Once you're there,  click Beginner -> Set Up Git for a very nicely written, step-by-step guide for Windows, MacOS and Linux.
 
-NOTE: The AppFlower Studio Playground contains a pre-configured appFlower environment with Studio on a fully functional project ready to use. 
+NOTICE: : The AppFlower Studio Playground contains a pre-configured appFlower environment with Studio on a fully functional project ready to use. 
 
 ***2.2 Get the AppFlower Repository***
 <pre>
@@ -59,7 +59,7 @@ propel.database.user = someuser
 propel.database.password = somepass
 </pre>
 
-NOTE: Don't forget to make sure that the "yourdb" database actually exists. You should also double check if "someuser" exists and his password is indeed "somepass". Besides the usual rights, this user ***must*** also have ***CREATE and DROP*** credentials!
+NOTICE: : Don't forget to make sure that the "yourdb" database actually exists. You should also double check if "someuser" exists and his password is indeed "somepass". Besides the usual rights, this user ***must*** also have ***CREATE and DROP*** credentials!
 
 ***3.2. Setting Project Permissions***
 <pre>

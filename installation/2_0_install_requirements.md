@@ -1,16 +1,16 @@
 # AppFlower Requirements
 
-<p class="warning">Please note that the requirements listed below are important only if you're ***not using our virtual machine***. In the VM, everything is already configured correctly is ready to use.
+WARNING: Please note that the requirements listed below are important only if you're ***not using our virtual machine***. In the VM, everything is already configured correctly is ready to use.
 
 Should you want to deploy your application onto a production server or relocate it to your own development environment, you have to make
 sure that the following components are installed and configured correctly:
 
-<ul>
-<li>PHP with 5.3.x or later</li>
-<li>Web Server running </li>
-<li>A supported RDMBS Database</li>
-<li>Symfony Framework (v1.4) if installed manually</li>
-</ul>
+
+ * PHP with 5.3.x or later
+ * Web Server running 
+ * A supported RDMBS Database
+ * Symfony Framework (v1.4) if installed manually
+
 
 
 
@@ -50,7 +50,7 @@ $ php check_configuration.php
 
 If there is a problem with your PHP configuration, the output of the command will give you hints on what to fix and how to fix it. You should also execute the checker from a browser and fix the issues it might discover. That's because PHP can have a distinct php.ini configuration file for these two environments, with different settings.
 
-NOTE: Don't forget to remove the file from your web root directory afterwards.
+NOTICE: : Don't forget to remove the file from your web root directory afterwards.
 
 ## Apache 2.x
 
@@ -83,9 +83,9 @@ Oracle
 
 AppFlower is configured to use <a href="http://www.mysql.com" target="_bank">MySQL</a> by default. Although it's not a requirement, it is recommended to use _MySQL 5.0+_ for best performance.
 
-NOTE: Please note that AppFlower performs all database operations ***exclusively through PDO***, so old database bindings (i.e.: the ones with procedural APIs) won't work!
+NOTICE: : Please note that AppFlower performs all database operations ***exclusively through PDO***, so old database bindings (i.e.: the ones with procedural APIs) won't work!
 
-NOTE: If you prefer to use a database engine other than MySQL, don't forget to review the PHP modules listed above! You'll have to
+NOTICE: : If you prefer to use a database engine other than MySQL, don't forget to review the PHP modules listed above! You'll have to
 ***install the PDO modules*** required to handle your database of choice, since the default configuration was meant to be used with MySQL only!
 
 ## Symfony 1.4

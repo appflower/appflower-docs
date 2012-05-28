@@ -46,7 +46,7 @@ propel.database.user = someuser
 propel.database.password = somepass
 </pre>
 
-NOTE: Don't forget to make sure that the "yourdb" database actually exists. You should also double check if "someuser" exists and his password is indeed "somepass". Besides the usual rights, this user ***must*** also have ***CREATE and DROP*** credentials!
+NOTICE: : Don't forget to make sure that the "yourdb" database actually exists. You should also double check if "someuser" exists and his password is indeed "somepass". Besides the usual rights, this user ***must*** also have ***CREATE and DROP*** credentials!
 
 ***3.2. Setting Project Permissions***
 <pre>

@@ -2,7 +2,7 @@
 
 Before introducing you to the AppFlower data handling mechanism Models we want you to take a quick look at ***databases***, since this is the technology used in the background to store and manage the data. 
 
-NOTE: This chapter is for those totally unfamiliar with RDBMS systems and the related basic concepts. If you already know all this, you should jump to the <a href="http://www.appflower.com/doc/1_1/learn_model_create">Creating the Song Model</a> chapter.
+NOTICE: : This chapter is for those totally unfamiliar with RDBMS systems and the related basic concepts. If you already know all this, you should jump to the <a href="http://www.appflower.com/doc/1_1/learn_model_create">Creating the Song Model</a> chapter.
 
 # What is a Database?
 

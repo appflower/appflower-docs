@@ -1,4 +1,4 @@
-# Notifications and Debug
+# Notifications and Debugging
 AppFlower Studio comes with a series of built-in tools to make development easier.  
 
 Its ***debug widget*** helps you track down code errors, while the ***audit log feature*** let's you easily find user mistakes and also makes your application more secure. Besides these, Studio also has cool notification system which keeps the user informed about important events and prints informative messages whenever necessary. 
@@ -28,9 +28,23 @@ Details the details of the event.
 This information may come in handy when have to look up a user-made error or just need information about user activity. But these are only 2 possible scenarios, there are many use-cases. The audit log displays all events ordered by date (latest first) and it is scrollable of course.
 
 
-# The Debug Widget
+# Debugging your Application
+To raise the debugging level of your application, to debug errors. You can open web/index.php with the code browser and change the value ('frontend', 'prod', false) to ('frontend', 'dev', true). The opposite way around, if you want to lower debugging level for production.
 
-<p class="warning">Please note that this feature only works if your log files reside in the project's "log" directory. This is the case with our virtual machine, but in custom environments you'll have to adjust Apache and PHP configuration to make use of this widget.
+in web/index.php 
+<pre>
+$configuration = ProjectConfiguration::getApplicationConfiguration('frontend', 'prod', false);
+</pre>
+
+and change to 
+
+<pre>
+$configuration = ProjectConfiguration::getApplicationConfiguration('frontend', 'dev', true);
+</pre>
+
+## The Debug Widget
+
+WARNING: Please note that this feature only works if your log files reside in the project's "log" directory. This is the case with our virtual machine, but in custom environments you'll have to adjust Apache and PHP configuration to make use of this widget.
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/notifications/studio_debug.png" rel="prettyPhoto" title=""><img alt="Debug Messages" src="/uploads/book/notifications/studio_debug.png" hspace="5" vspace="5"></a></div> 
 
@@ -68,21 +82,21 @@ Message is the event details.
 
 All these logs show only recent entries by default. However, they are pageable, so you can browse the whole log file too quickly and easily, even if it's huge (multiple GBs). To do that, simply use the paging controls at the bottom of the debug window. More information about these files can be found on the web sites of <a href="http://httpd.apache.org/docs/2.2/logs.html">Apache</a> and <a href="http://www.symfony-project.org/gentle-introduction/1_4/en/16-Application-Management-Tools#chapter_16_sub_symfony_logs">Symfony</a> projects.
 
-NOTE: For those using their own development environment: Did you know that these files are available in your OS too? You open and browse them using your favorite text editor as well (only plain text editor, not MS Word!). The exact location and naming varies from system to system. But you can always run a file search to find them easily!  Some hint for sear
-ching: *_access.log, *_error.log and frontend_dev.log.
+NOTICE: : For those using their own development environment: Did you know that these files are available in your OS too? You open and browse them using your favorite text editor as well (only plain text editor, not MS Word!). The exact location and naming varies from system to system. But you can always run a file search to find them easily!  Some hint for searching: *_access.log, *_error.log and frontend_dev.log.
 
-# The Notifications
+
+# Notifications
 Like I said, Studio has a cool built-in notification system, which keeps you up-to-date. It displays small, informative panels whenever something happens. The panel appears at the bottom right corner of the screen. Currently, the system reports three kind of events:
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/notifications/studio_notification_popup.png" rel="prettyPhoto" title=""><img alt="Notifications System in Studio" src="/uploads/book/notifications/studio_notification_popup.png" hspace="5" vspace="5"></a></div> 
 Errors are generated when the requested operation fails for some reason, or it could not be performed. In this case the panel is displayed with a bright red background and an exclamation mark in the top left corner:
 
-NOTE: These error message are useful not only for detecting development issues, but also configuration problems that prevent Studio from running properly. You should always pay attention to these, and read all error messages carefully!
+NOTICE: : These error message are useful not only for detecting development issues, but also configuration problems that prevent Studio from running properly. You should always pay attention to these, and read all error messages carefully!
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/notifications/studio_warning_message.png" rel="prettyPhoto" title=""><img alt="Warning Notification" src="/uploads/book/notifications/studio_warning_message.png" hspace="5" vspace="5"></a></div> 
 Warnings are sent when an operation was only partly successful and there something to keep in mind about it, or when operation could not be performed due to missing info (like user input). These panels are rendered with a yellowish background and a small triangle thingy in the top left corner.
 
-NOTE: You should pay attention to warnings as well! They ALWAYS carry important information!
+NOTICE: : You should pay attention to warnings as well! They ALWAYS carry important information!
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/notifications/studio_system_message.png" rel="prettyPhoto" title=""><img alt="Notification Message" src="/uploads/book/notifications/studio_system_message.png" hspace="5" vspace="5"></a></div> 
 Info messages are displayed on success, or as confirmation. They are rendered with white background and a (i) icon in the corner.

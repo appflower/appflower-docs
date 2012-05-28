@@ -68,6 +68,6 @@ Once you're there, execute the command below:
 
 The transfer of your application will begin immediately, progress information will be shown on screen.
 
-NOTE: Please be patient! It will take some time to perform this task, since a project contains a lot of data.
+NOTICE: : Please be patient! It will take some time to perform this task, since a project contains a lot of data.
 
 Your project is now deployed, bit it's ***not operational yet***! There are a few simple settings to adjust, please read on.

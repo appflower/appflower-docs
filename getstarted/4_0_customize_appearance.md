@@ -24,7 +24,7 @@ navigation, but the traditional one is straightforward and easy to use as well.
 Currently there are 3 available editors for the Theme(s), CSS, Start Menu and Desktop Link editor. The first one allows you to modify Studio look and feel, the other two are useful for applications with a Desktop Theme.
 
 # The CSS Editor
-<div style="clear:both;"></div>
+
 <div class="image_medium" style="float:right;"><a href="/uploads/book/theme/theme_css_editor.png" rel="prettyPhoto" title=""><img alt="Theme CSS Editor" src="/uploads/book/theme/theme_css_editor.png" hspace="5" vspace="5"></a></div> 
 This tool lets you customize Studio appearance by changing various CSS style rules. Yes, this is the same CSS you use to build "normal" web pages. If you open the editor, you'll see a bunch of CSS files on the left and the editor window on the right. Here is a small summary of all the available stylesheets
 
@@ -38,16 +38,16 @@ You may edit any of these files using the built-in editor. When you're ready, pr
 
 Regarding design changes, it is also good to know about the directory web/images/famfamfam. This can be found in all AppFlower packages, and it holds hundreds of high quality icons. This will come in handy for Studio customizations as well as building start menus and desktop links (see below). Whenever you need a new icon, look here first!
 
-NOTE: Caution! Modify any of the CSS files only if you know what you're doing! Mistakes can cause problems in your Studio interface and may result in broken design! 
+NOTICE: : Caution! Modify any of the CSS files only if you know what you're doing! Mistakes can cause problems in your Studio interface and may result in broken design! 
 If you're not familiar with CSS yet, but you're eager to customize, you can learn more from <a href="http://w3schools.com/css/default.asp">http://w3schools.com/css/default.asp</a>. This is short and very well written introduction on CSS (Cascading Style Sheets). You should read this at least before modifying anything!
 
 Once you've finished CSS tweaking, go back to the Editors tab. We're gonna have a look at the other 2 editors now.
 
-NOTE: Did you know that you can switch back to the Theme Designer panel from any editor, by hitting the small Theme button in the top right corner? Try it now!
+NOTICE: : Did you know that you can switch back to the Theme Designer panel from any editor, by hitting the small Theme button in the top right corner? Try it now!
 
 
 # Start Menu Editor
-<div style="clear:both;"></div>
+
 <div class="image_medium" style="float:right;"><a href="/uploads/book/praticalcrm/menueditor.PNG" rel="prettyPhoto" title=""><img alt="Start Menu Editor" src="/uploads/book/praticalcrm/menueditor.PNG" hspace="5" vspace="5"></a></div> 
 If your AppFlower application uses the Desktop theme, you can use this editor to add items to the Windows-like start menu (located in the bottom left corner of the desktop).
 
@@ -69,7 +69,7 @@ There are also two optional attributes. You may leave these blank if you want th
 icon A path to an image file goes here, which will be attached to the item as an icon: _/images/famfamfam/accept.png_ .
 tooltip Some text to be displayed when moving the mouse pointer over the item, for example _A helpful hint_ .
 
-<p class="warning">Did you know that a huge selection of icons is shipped with AppFlower? You can find hundreds of them in ***/images/famfamfam***
+WARNING: Did you know that a huge selection of icons is shipped with AppFlower? You can find hundreds of them in ***/images/famfamfam***
 
 ## Button: a different kind of menu item
 
@@ -79,7 +79,7 @@ Whether you you're creating a new item or a sub-menu entry, it is always possibl
 if(confirm("Are you sure?")) afApp.load("/mywidget", "mymodule");
 </pre>
 
-NOTE: Just like menu item, buttons also can be used in sub-menus.
+NOTICE: : Just like menu item, buttons also can be used in sub-menus.
 
 ## Creating sub-menus
 
@@ -99,7 +99,7 @@ iconCls This is an optional attribute, the name of a CSS class goes here that sh
 <p class="note" >Unlike menu items and buttons, tools can be added only to the root level, it's not possible to build sub-menus here.
 
 # Shortcuts Editor
-<div style="clear:both;"></div>
+
 <div class="image_medium" style="float:right;"><a href="/uploads/book/praticalcrm/shortcutedit.PNG" rel="prettyPhoto" title=""><img alt="Desktop Link Editor" src="/uploads/book/praticalcrm/shortcutedit.PNG" hspace="5" vspace="5"></a></div> 
 The Shortcuts Editor allows you add links (as icons) to your application desktop. Just like the previous one, this editor is useful only for application is using the Desktop theme. Usually these links point to common used functions such as layouts or frequently used widgets, but of course feel free to link anything you like -:). 
 

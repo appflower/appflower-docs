@@ -13,19 +13,19 @@ The actual number displayed varies from system to system according to your netwo
 
 That's it! Now you should see a web page with links to the Playground and SeedControl Projects.
 
-NOTE: The file-system path to appFlower playground is located at /var/www/appflower_studio.
+NOTICE: : The file-system path to appFlower playground is located at /var/www/appflower_studio.
 
 # Opening AppFlower Studio
 
 It's time to login into AppFlower Studio. Hit the ***Playground*** link and use the username admin and password admin to sign in.
 
-<div style="clear:both;"></div>
+
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/welcome/welcome_to_appflower.png" rel="prettyPhoto" title=""><img alt="Welcome to AppFlower" src="/uploads/book/welcome/welcome_to_appflower.png" hspace="5" vspace="5"></a></div> 
 
 Once you've successfully logged in, a welcome screen appears. Here you can watch video tutorials and access a number of useful quick links, such as: 
 
-<div style="clear:both;"></div>
+
 
  create a new project : which will open a wizard that will guide you through creating a new project from scratch.
  open an existing project : lets you open an existing project stored on the _same_ server.

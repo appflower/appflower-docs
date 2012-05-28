@@ -3,7 +3,6 @@ We recommend beginners to start using the virtual machine image which can quickl
 
 ## Bundled Package
 A bundled appFlower package with everything you need to get started (all plugins). Just download to a web-server environment and extract the package.
-AppFlower
 
 ## GitHub
 Download the source code through GitHub and manually construct your AppFlower package. AppFlower Engine, Studio and Plugins are available from GitHub.

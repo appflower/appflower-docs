@@ -5,15 +5,15 @@ In the Studio Beta menu, click Projects -> Load project.
 
 This will open a directory browser. Simply navigate to your project directory (somewhere under web root) and click Load.
 
-NOTE: There are ***no files to select here***, you only have to select the directory whose name is the same as the name of your project.
+NOTICE: : There are ***no files to select here***, you only have to select the directory whose name is the same as the name of your project.
 
-<div style="clear:both;"></div>
+
 
 # Recent Projects
 <div class="image_medium" style="float:right;"><a href="/uploads/book/projects/08_recent_projects.png" rel="prettyPhoto" title=""><img alt="Recent Projects" src="/uploads/book/projects/08_recent_projects.png" hspace="5" vspace="5"></a></div> 
 
 Once you have already worked on a project, Studio will remember it for a while. You can open it without any browsing using Project -> Recent projects in ***Studio Beta*** menu. Just select its name from the list, Studio will load it instantly.
-<div style="clear:both"> </div>
+
 
 
 # Project Settings
@@ -45,11 +45,11 @@ means the current computer and should do fine in most cases.
 Port: is the port number where clients can connect to the database service, running on the host defined above. Normally it's empty, which means the 
 default port is used.
 
-NOTE: Unless you have a very good reason, ***you shouldn't change this***!
+NOTICE: : Unless you have a very good reason, ***you shouldn't change this***!
 
 Username: is the username of the database user.
 
 Password: is the password of the database user.
 
-NOTE: Please keep in mind, that changing the authentication details above ***does not create*** a new user, ***nor does it change***
+NOTICE: : Please keep in mind, that changing the authentication details above ***does not create*** a new user, ***nor does it change***
 the settings of an existing one. These are merely for the records of Studio. To perform these operations, you have to use a database client!

@@ -6,7 +6,7 @@ VMWare Workstation is another way to get AppFlower running easily. If you don't 
 
 Once you got the application installed, please have a look at this ***video tutorial***. It will explain how to configure Workstation properly to run AppFlower. All the instructions are also outlined below as text.
 
-NOTE: Please note that currently only ***Workstation***. We have not tested this on any other VMware products like Player.
+NOTICE: : Please note that currently only ***Workstation***. We have not tested this on any other VMware products like Player.
 
 <iframe src="http://player.vimeo.com/video/21692912" width="500" height="281" frameborder="0"></iframe>
 

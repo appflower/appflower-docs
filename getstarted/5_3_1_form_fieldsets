@@ -1,0 +1,48 @@
+# Creating Form Field-Sets and Tabs
+
+The Widget Designer lets you build forms easily, however, it puts all fields into the same, invisible stack by default. This is OK as long as your form is relatively small, but bigger, more complex UIs might require a better structure. That's what ***field-sets*** and ***tabs*** are for.
+
+Load up any Edit widget in Studio, we're gonna  check out how to change its appearance.
+
+# Field-Sets
+
+Right click to the topmost element in Widget Inspector and choose Add-> i:grouping. Notice that a default field-set immediately appears in live preview. It holds all the fields for now.
+
+## Working with a single field-set
+
+<div class="image_medium" style="float:right;"><a href="/uploads/book/cookbook/fieldset1.PNG" rel="prettyPhoto" title=""><img alt="The default field-set" src="/uploads/book/cookbook/fieldset1.PNG" hspace="5" vspace="5"></a></div>
+
+If you need ***only one field-set***, simply click to the ***i:grouping*** element in WI, then change its _title_ attribute. This will be instantly reflected in the live preview, and you should end up with something like the picture on the right.
+
+
+
+## Working with multiple sets
+
+<div class="image_medium" style="float:right;"><a href="/uploads/book/cookbook/fieldset2.PNG" rel="prettyPhoto" title=""><img alt="Multiple field-sets" src="/uploads/book/cookbook/fieldset2.PNG" hspace="5" vspace="5"></a></div>
+
+Creating ***several sets*** is also possible. Just right click to ***i:grouping*** in WI, then select Add i:set, to add a new field-set. A new, empty set appears.  It has a default title, so change its _title_ attribute. Now that our field-set looks OK, it's time to add some fields to it.: 
+
+
+
+To do that, simply right click the newly added i:set element and choose Add i:ref. A new reference element shows up. ***Modify its _to_ attribute to point to the _name_ of the form field you wish to move to this field-set***. So for instance, if you have a form field called "date", set the _to_ attribute's value  to "date". That will relocate the field instantly.
+
+Repeat the above for each field you wish to add to the field-set. You may add any number of fields and field-sets in this manner.
+
+NOTICE: Please keep in mind that the ***name*** of a form field is its ***system name and not its label***!
+
+## Ordering fields inside a field-set
+
+By default, the fields appear inside a field-set in the order they were added. You may easily change this, by dragging the reference (***i:ref***) nodes around. Just open ***i:grouping*** in Widget Inspector and move any of the i:refs up or down. The form fields will be automatically re-ordered.
+
+## Changing the order of field-sets
+
+Just like field references, field-sets can be ordered too. To change the default order, just open ***i:grouping*** in WI, then drag a given set up or down. Again, the changes will be immediately reflected in the live preview.
+
+WARNING: Please note that the Default field-set (the one that gets created automatically when you add i:grouping), ***should be used only if there are no others sets in the form!***. Whenever you need multiple field-sets, it's best to create each manually, by adding a new i:set. You shouldn't try to re-use the default field-set!
+
+# Tabs
+
+<div class="image_medium" style="float:right;"><a href="/uploads/book/cookbook/fieldset3.PNG" rel="prettyPhoto" title=""><img alt="Tabs" src="/uploads/book/cookbook/fieldset3.PNG" hspace="5" vspace="5"></a></div>
+
+Once you've got some field-sets, you can turn them into tabs in seconds. Select the ***i:set*** element in WI, then fill in its _tabtitle_ attribute's value. The new tab appears in live the preview with the given field-set inside it. You can turn all your sets into tabs. If you ever change your mind, just reset  the tabtitle. This will transform them back to field-sets again.
+

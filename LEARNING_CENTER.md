@@ -7,8 +7,8 @@ Let us know if anything is missing!
 
 
 # Quick Links
-<ul>
- <li> 1. Installing AppFlower on <a href="/doc/1_2/learn_install_virtualbox">Virtualbox</a> or <a href="/doc/1_2/howtovmware">VMware</a>.</li>
- <li> 2. <a href="/bugs">Bug Reporting</a></li>
- <li> 3. View <a href="/forum/createTopic">Discussion Forum</a> or <a href="/forum/index">Create an Entry</a></li>
-</ul>
+
+  *  1. Installing AppFlower on <a href="/doc/1_2/learn_install_virtualbox">Virtualbox</a> or <a href="/doc/1_2/howtovmware">VMware</a>.
+  *  2. <a href="/bugs">Bug Reporting</a>
+  *  3. View <a href="/forum/createTopic">Discussion Forum</a> or <a href="/forum/index">Create an Entry</a>
+

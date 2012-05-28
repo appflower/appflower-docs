@@ -30,7 +30,7 @@ It is read-only, you cannot change the structure or the indexes here. To do that
     
 # DB Queries
 
-<div style="clear:both;"></div>
+
 <div class="image_medium" style="float:right;"><a href="/uploads/book/dbquery/03_dbquery_making_queries.png" rel="prettyPhoto" title=""><img alt="dbQuery Performing SQL Queries" src="/uploads/book/dbquery/03_dbquery_making_queries.png" hspace="5" vspace="5"></a></div> 
 
 The data browser can show you all the records in a table, but this is not always the best solution. Sometimes you may want to see only a subset of the records, those that meet a certain criteria. You may also need to add or update records. To perform these operations, you have to write a query.
@@ -46,7 +46,7 @@ This is where you type the query. It supports two syntaxes at the moment:
 SELECT * FROM products WHERE name="MacBook Pro";
 </pre>
     
-NOTE: SQL stands for ***Structured Query Language***. It is a way to work with databases. SQL commands can retrieve, insert, delete or update data. It is a very powerful, yet easy to understand technology that works with nearly all database engines out there.
+NOTICE: : SQL stands for ***Structured Query Language***. It is a way to work with databases. SQL commands can retrieve, insert, delete or update data. It is a very powerful, yet easy to understand technology that works with nearly all database engines out there.
     
 
 For a quick overview, please follow the link:
@@ -61,7 +61,7 @@ We suggest you to read the part about ***SQL Basics*** first, which covers the m
 ProductsQuery::create()->where("products.name = 'MacBook Pro'", 1)->find();
  </pre>
 
-NOTE: Propel is another way to work with databases, using the PHP programming language. This is an advanced topic, if you're not familiar with programming, we suggest you to choose SQL instead.
+NOTICE: : Propel is another way to work with databases, using the PHP programming language. This is an advanced topic, if you're not familiar with programming, we suggest you to choose SQL instead.
 
     
 For those of you already comfortable with PHP, but new to Propel,  a quick overview of the syntax can be found at

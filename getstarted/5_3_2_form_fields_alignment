@@ -1,0 +1,32 @@
+# Aligning Form Fields Horizontally
+
+Form fields in Edit widgets are aligned vertically by default. They are rendered in a stack-like manner. You can quickly change this any time, provided that the fields are contained in <a href="/doc/1_1/cookbook_fieldsets">field-sets or tabs</a>.
+
+Open up any Edit widget in Studio to see how this works.
+
+## Enabling floating
+
+<div class="image_medium" style="float:right;"><a href="/uploads/book/cookbook/fieldset1.PNG" rel="prettyPhoto" title=""><img alt="The default field-set" src="/uploads/book/cookbook/fieldset1.PNG" hspace="5" vspace="5"></a></div>
+
+The picture on the right shows the default alignment. Now click to your field-set (the ***i:set*** element in Widget Inspector***), and set its _float_ attribute to true. 
+
+
+
+<div class="image_medium" style="float:right;"><a href="/uploads/book/cookbook/floating2.PNG" rel="prettyPhoto" title=""><img alt="Floating enabled.." src="/uploads/book/cookbook/floating2.PNG" hspace="5" vspace="5"></a></div>
+
+This will cause all form fields to be rendered on the same row, as shown on this next picture.
+
+
+
+## Adding line breaks
+
+However, this doesn't look very good, it would be better to divide the screen into ***multiple columns*** and put a field into each. Luckily, this is very easy to do, since every reference element (***i:ref*** under ***i:grouping***) has a _break_ attribute. ***Pick the reference of the form field that should be the last in a row*** and set its break attribute to true. This will trigger a line break, therefore next form field will be placed into the next row.
+
+Let's see an example now, this will help us better understand what's happening. Have a look at the screen shot below.
+
+<div class="image_medium" style="float:right;"><a href="/uploads/book/cookbook/floating.PNG" rel="prettyPhoto" title=""><img alt="Fields arranged into 2 columns" src="/uploads/book/cookbook/floating.PNG" hspace="5" vspace="5"></a></div>
+
+Here we have 5 form fields and we wish to put them into 2 columns. So we set break=true for the 2nd and 4th form fields. This is only one possible scenario, you don't have to distribute the fields evenly among columns. There could be 3 on a row or 4. etc. Using the break attribute you can create any number of columns. This is only limited by the size of the form area.
+
+
+NOTICE: Remember, the break attribute belongs the reference element (i:ref) pointing to a form field and not to the field itself (i:field)!

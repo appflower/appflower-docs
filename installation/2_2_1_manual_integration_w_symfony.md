@@ -2,7 +2,7 @@
 
 In this chapter we'll explain how to add AppFlower system to your existing or newly created Symfony 1.4 project. This can be done in two ways: using either Studio or the Engine package. These include only the AppFlower source code, without any examples, thus they are suitable for integrating AppFlower into your existing application. If you would like to set up a brand new SF / AF project or need examples, check out the <a href="/doc/1_1/learn_gitexamples" >Learning and Creating New Projects</a> chapter instead.
 
-<p class="warning">This guide assumes that you are somebody with remarkable development experience are familiar with the Symfony framework. It also assumes that your ***Symfony 1.4*** project already exists and is configured properly: it is database-driven, and you can access it in a browser. Your project must also use the Propel ORM layer for database handling, as ***Doctrine is not supported*** yet!
+WARNING: This guide assumes that you are somebody with remarkable development experience are familiar with the Symfony framework. It also assumes that your ***Symfony 1.4*** project already exists and is configured properly: it is database-driven, and you can access it in a browser. Your project must also use the Propel ORM layer for database handling, as ***Doctrine is not supported*** yet!
 
 So let's get started!
 

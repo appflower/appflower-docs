@@ -57,7 +57,7 @@ Change this to ***Music Library***.
 ## Actions
 <div class="image_medium" style="float:right;"><a href="/uploads/book/widget/widget-toolbar-action.png" rel="prettyPhoto" title=""><img alt="List Widget - Toolbar Actions" src="/uploads/book/widget/widget-toolbar-action.png" hspace="5" vspace="5"></a></div> 	
 These are toolbar actions placed at the top of the list. Basically, ***they are links*** pointing to other _widgets, layouts, or external resources_ (like a website). Their main purpose is to interconnect the related parts of your application, but any kind of URL is supported. Of course, you can add multiple actions to your widget.
-NOTE: Actions can be much more than just links. They have many additional features that you'll find useful. You can learn more about the full power of actions in the
+NOTICE: : Actions can be much more than just links. They have many additional features that you'll find useful. You can learn more about the full power of actions in the
 <a href="/doc/1_1/reference_action" >Reference Manual (Actions)</a>
 
 
@@ -70,7 +70,7 @@ NOTE: Actions can be much more than just links. They have many additional featur
 To add a new action, right click on i:actions, then choose Add Action from the context menu. The three most important settings of an action are:
 
 Name: This is the ***label text*** of the button.
-Url: This is where the ***action will point to***. If you want it to point to a _widget or layout_, use the internal URI format (module_name/action_name) <br/>
+Url: This is where the ***action will point to***. If you want it to point to a _widget or layout_, use the internal URI format (module_name/action_name) 
 Icon Url: This should be a ***path to an image file***, which will be attached to the button as an icon. It is optional, leave it blank and no icon will be shown.
 
 ## Datasource

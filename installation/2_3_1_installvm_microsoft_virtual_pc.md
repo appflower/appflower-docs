@@ -1,11 +1,11 @@
 # Installing AppFlower with Microsoft Virtual PC
 
-<p class="warning">Supported versions: MS Virtual PC 2007 1.0 or newer or Windows Virtual PC. 
+WARNING: Supported versions: MS Virtual PC 2007 1.0 or newer or Windows Virtual PC. 
 
 If you're running Windows 7 or Vista, you can use either the newest <a href="http://www.microsoft.com/windows/virtual-pc/download.aspx" 
 >Windows Virtual PC</a>, or the older <a href="http://www.microsoft.com/download/en/details.aspx?id=4580" >Microsoft Virtual PC 2007</a> to run AppFlower, although the former is recommended. Users of older Windows versions (such as XP) should download Virtual PC 2007. Both packages can be obtained freely from Microsoft's website.
 
-NOTE: ***A note for Windows 7 / Vista users:*** only Windows Virtual PC is needed to work with AF, so you ***don't have to download*** the XP 
+NOTICE: : ***A note for Windows 7 / Vista users:*** only Windows Virtual PC is needed to work with AF, so you ***don't have to download*** the XP 
 compatibility bundle. Also keep in mind that once you've installed Windows Virtual PC, you won't be able to run VPC 2007 or any other older version anymore.
 
 # Converting the AppFlower image
@@ -25,7 +25,7 @@ utility, <a href="http://vmtoolkit.com/files/folders/converters/entry8.aspx" >VM
 
 ***4.*** Finally, hit Convert to create the VHD file. This will take a few minutes, please be patient.
 
-<div style="clear:both;"></div>
+
 
 # Setting up Windows Virtual PC VM
 
@@ -47,43 +47,43 @@ machines appears with only one entry. Double click the AppFlower VM to start it.
 
 Start up Virtual PC then click New to create a new VM. A wizard shows up:
 
-<div style="clear:both;"></div>
+
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/virtualmachine/vpc2007_2.PNG" rel="prettyPhoto" title=""><img alt="Create new virtual machine" src="/uploads/book/virtualmachine/vpc2007_2.PNG" hspace="5" vspace="5"></a></div> 
 
 ***Step 1:*** Click ***Next***, select Create new virtual machine, then hit Next again.
 
-<div style="clear:both;"></div>
+
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/virtualmachine/vpc2007_3.PNG" rel="prettyPhoto" title=""><img alt="Location of VM" src="/uploads/book/virtualmachine/vpc2007_3.PNG" hspace="5" vspace="5"></a></div> 
 
 ***Step 2:*** Type in a location for the new VM (for example C:\myvm\AppFlower.vmc), then hit ***Next*** to continue.
 
-<div style="clear:both;"></div>
+
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/virtualmachine/vpc2007_4.PNG" rel="prettyPhoto" title=""><img alt="Configuration overview" src="/uploads/book/virtualmachine/vpc2007_4.PNG" hspace="5" vspace="5"></a></div> 
 
 ***Step 3:*** Virtual PC now display a default configuration. Leave everything as is, then press ***Next***.
 
-<div style="clear:both;"></div>
+
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/virtualmachine/vpc2007_5.PNG" rel="prettyPhoto" title=""><img alt="Memory options" src="/uploads/book/virtualmachine/vpc2007_5.PNG" hspace="5" vspace="5"></a></div> 
 
 ***Step 4:*** Select the Adjusting the RAM option and set it to ***512MB*** using the slider.
 
-<div style="clear:both;"></div>
+
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/virtualmachine/vpc2007_6.PNG" rel="prettyPhoto" title=""><img alt="Hard disk options" src="/uploads/book/virtualmachine/vpc2007_6.PNG" hspace="5" vspace="5"></a></div> 
 
 ***Step 5:*** Choose the An existing virtual hard disk option and press ***Next***.
 
-<div style="clear:both;"></div>
+
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/virtualmachine/vpc2007_7.PNG" rel="prettyPhoto" title=""><img alt="Hard disk location" src="/uploads/book/virtualmachine/vpc2007_7.PNG" hspace="5" vspace="5"></a></div> 
 
 ***Step 6:*** Finally, browse the VHD file you've created earlier, push ***Next***, then press ***Finish*** to close the wizard.
 
-<div style="clear:both;"></div>
+
 
 The new virtual machine now appears in the list of VMs, you can start it by clicking the Start button. AppFlower 
 should boot up in a few seconds.

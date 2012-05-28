@@ -10,7 +10,7 @@ A list of current users appears. The list shows some important details about eac
 
 # Adding a new user
 
-<div style="clear:both;"></div>
+
 <div class="image_medium" style="float:right;"><a href="/uploads/book/user/user_settings.png" rel="prettyPhoto" title=""><img alt="User Settings" src="/uploads/book/user/user_settings.png" hspace="5" vspace="5"></a></div> 
 
 Click Create user button. 
@@ -42,4 +42,4 @@ Make your changes, then click Save user data button to apply them.
 # Removing users
 Locate the user account you wish to delete in the list, then click the ***red circle icon***.
     
-NOTE: Attention! Deleting a user removes it ***permanently*** from the database. ***This action cannot be undone!***
+NOTICE: : Attention! Deleting a user removes it ***permanently*** from the database. ***This action cannot be undone!***

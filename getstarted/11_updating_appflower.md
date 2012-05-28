@@ -61,7 +61,7 @@ git pull
 git submodule update --init
 </pre>
 
-NOTE: Please keep in mind that each new project contains a ***new instance*** of Studio and the Engine, so updates must be downloaded for
+NOTICE: : Please keep in mind that each new project contains a ***new instance*** of Studio and the Engine, so updates must be downloaded for
 ***each project, separately***!
 
 5. Finally, you should clear the server cache, and regenerate widget cache, to make sure the system is using the updated files. To do this, run the 
