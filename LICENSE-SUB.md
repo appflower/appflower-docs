@@ -1,0 +1,1 @@
+Sencha ExtJS: The included Sencha ExtJS library is under GPLv3 license.
