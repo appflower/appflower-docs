@@ -21,6 +21,7 @@ cd /your_web_root_path/myproject
  php batch/check_configuration.php
 </pre>
 
+
 # Step 3: Configuring AppFlower
 ***3.1 Database Settings:*** Adjust the database settings. Basically, you'll have to update two system files with the name of your MySQL database and the username and password to access it:
 
@@ -67,8 +68,7 @@ NOTICE: : Don't forget to make sure that the "yourdb" database actually exists. 
 
 ***3.5. Virtual Host*** Finally, you need to setup a virtual host so you can access the project in browser. If you're familiar with Apache configuration, simply add the following host and update your hosts file with the _myproject.local_ entry. Should you need more information, detailed instructions can be found in <a href="http://www.appflower.com/cms/learn_vhost">Configuring Apache Virtual Hosts</a> chapter.
 
-<script type="syntaxhighlighter" class="brush:bash">
-<![CDATA[
+<pre>
 <VirtualHost *:80>
   ServerName myproject.local
   DocumentRoot /your_web_root_path/myproject/web
@@ -77,8 +77,7 @@ NOTICE: : Don't forget to make sure that the "yourdb" database actually exists. 
     AllowOverride All
   </Directory>
 </VirtualHost>
-]]>
-</script>
+</pre>
 
 
 # Step 4: Open your new Project
