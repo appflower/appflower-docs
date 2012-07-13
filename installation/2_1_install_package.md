@@ -18,7 +18,7 @@ cd /your_web_root_path/myproject
 ***2.2 Check Environment:*** you can run the batch/check_configuration.php file to test if your php environment is correctly configured before you continue.
 
 <pre>
- php batch/check_configuration.php
+ php lib/vendor/symfony/data/bin/check_configuration.php
 </pre>
 
 

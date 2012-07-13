@@ -94,7 +94,7 @@ Exportable: If it's enabled, controls will be added to allow the list to be ***e
 Pager: If it's activated, the ***list will be page-able***, otherwise only a single page will be displayed. 
 Selectable: When activated, small checkboxes will be added to each list row. The _selected rows then can be posted_ to the server for processing. This is another neat feature, since it ***makes the list act like a form***. The _MoreActions_ component may also make use of this selection (see below). 
 Action: A widget URI to post the selected items to. It must be used with Selectable. 
-Tree: When it's on, the ***list will be rendered as a tree *** instead of the traditional table stuff. This requires some special input though, for more information, please see <a href="/doc/1_1/reference_list_view" >Reference Manual (Multiple kind of Lists)</a>.
+Tree: When it's on, the ***list will be rendered as a tree*** instead of the traditional table stuff. This requires some special input though, for more information, please see <a href="/doc/1_1/reference_list_view" >Reference Manual (Multiple kind of Lists)</a>.
 
 
 ## Columns
@@ -133,3 +133,15 @@ These are also actions, but of a different kind. They appear in the ***More Acti
 Another kind of Action. These are attached to ***each row of the list***, in the form of small icons. They are always _related to a single record_. The RowAction URL contains the ID of the related record (list row). 
 
 For instance, a possible use-case is again a User list. RowActions will point to the Edit User page as well as to the Delete User function. These also have the same settings as normal actions.
+
+## Links on Fields
+To add a link into a field you need to add an html column to the Model, like in lib/model/Assignment.php (Assignment being the model name)
+
+    public function getHtmlAssignment()
+    {
+        return '<a href="/#/assignment/assignmentEdit?id='.$this->getId().'"> '.$this->__toString().'</a>';
+    }
+
+in your widget config you can a new column:
+
+	<i:column label="Assignment" name="html_assignment"/>
