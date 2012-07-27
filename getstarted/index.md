@@ -1,1 +1,3 @@
- - what is appflower
+The Learning AppFlower book is a easy to read chapter by chapter book, which explains the workings of AppFlower and Studio. Without the need to have previous knowledge about programming while still being able to make functional applications after reading this beginners book.
+
+More Advanced features of AppFlower are discussed in details in the dedicated book “AppFlower for Developers” and "The Reference Manual".
