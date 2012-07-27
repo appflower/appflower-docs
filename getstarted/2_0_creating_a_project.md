@@ -1,12 +1,17 @@
 # What is a Project?
 
-A project is a kind of container, like a folder. It contains your AppFlower application and all other related things, such as documentation, images, licensing info etc. It also stores some extra info for Studio, which will be used to identify and load the project. 
+A project is a kind of container, like a folder. It contains your AppFlower application and all other related things, such as documentation, images, licensing info etc. It also stores some extra info for Studio, which will be used to identify and load the project. If you don't already have AppFlower installed you can Signup for a free account on AppFlower Live.
 
 Once a project has been created, you can open it with Studio anytime to edit its contents. You can make modifications to the application inside or the other data files it contains.
 
+# How to create a Project on AppFlower Live
+If you choose to use the AppFlower Live (Platform-as-a-Service) you already got a fresh project you can start using. And you can move forward to the next chapter.
+
+To create multiple projects on AppFlower Live. Just access your User Profile on AppFlower.com and under Projects you can create multiple projects and upgrade them as needed.
+
+# How to create a Project on the Virtual Machine?
 WARNING: Please note that the project creation feature described below is guaranteed to work ***with our Virtual Machine only***! If you're using a different environment, you might have to create the [database](../cookbook/database.md) and  [virtual host](http://www.appflower.com/doc/1_2/learn_vhost) manually. Please follow these links if you need help!
 
-# How to create a Project?
 It's easy you can just use your newly opened project. Or you can create a new project, if you want to have several projects by starting Studio and follow these steps (or using the installation process for git or the bundled package):
 
 <div class="image_medium" style="float:right;"><a href="/uploads/book/projects/01_projectname.png" rel="prettyPhoto" title=""><img alt="Project Name" src="/uploads/book/projects/01_projectname.png" hspace="5" vspace="5"></a></div> 
