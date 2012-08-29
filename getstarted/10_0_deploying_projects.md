@@ -8,4 +8,9 @@ It is also possible to deploy a project _automatically_, over the network or to 
 
 This chapter will provide all necessary information about the components you need to make AppFlower running and it will also throughly explain how to deploy a project created with Studio. Provided that certain perquisites are available, AppFlower applications will work on almost any modern OS.
 
-
+By default there is enabled debugging setting for production environment. Before deployment it is highly recommended to disable debugging in production environment.
+This can be achieved by uncommenting
+//$configuration = ProjectConfiguration::getApplicationConfiguration('frontend', 'prod', false);
+and commenting
+$configuration = ProjectConfiguration::getApplicationConfiguration('frontend', 'dev', true);
+line in web/index.php file.
